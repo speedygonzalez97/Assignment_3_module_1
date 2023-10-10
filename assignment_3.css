@@ -1,0 +1,74 @@
+body {
+
+
+}
+
+.class1 {
+    display: grid;
+    grid-template-areas:
+    'header header header header header header'
+    'main main main main main main'
+    'main main main main main main'
+    background-color: white;
+    color: red;
+    gap: 1px;
+}
+
+.box {
+
+    border-radius: 1px;
+    padding: 20px;
+    font-size: 200%;
+}
+
+.a {
+    background-color: black;
+    color: white;
+    grid-row-start: 1;
+
+
+}
+
+.b{
+    height: 450px;
+    background-color: black;
+   grid-row-start: 2 ;
+ 
+}
+.c 
+{
+    height: 350px;
+    background-color: white;
+    grid-row-start: 3;
+
+}
+.d 
+{
+    height: 200px;
+    background-color: white;
+    grid-row-start: 4;
+
+}
+.e
+{
+    height: 200px;
+    background-color: white;
+    grid-row-start: 5;
+
+}
+.f 
+{
+    height: 200px;
+    background-color: white;
+    grid-row-start: 6;
+
+}
+
+.g {
+    height: 250px;
+    background-color: black;
+    grid-row-start: 7;
+}
+
+
+
